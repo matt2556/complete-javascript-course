@@ -66,3 +66,32 @@ console.log(newDescribtion);
 
 
  /* Equality operator: == vs. === */
+
+let numNeighbours = 1 //prompt("How many neighbour countries does your country have?");
+
+if(numNeighbours === 1 ){
+   console.log("Only 1 border");
+} else if (numNeighbours > 1){
+ console.log("More than 1 border ");
+} else {
+   console.log("No borders");
+}
+
+
+/* Logical operators */
+
+let nationLanguage = "English"
+
+let nationPopulation = 49000000
+
+let notIsland = false 
+
+if (nationLanguage == "English" & nationPopulation <= 50000000 & notIsland == false){
+console.log("You should live in Portugal :)");
+} else {
+   console.log("dont move");
+}
+
+
+/* The switch statement */
+
